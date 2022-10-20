@@ -1,0 +1,173 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background: linear-gradient(90deg, #D16BA5 10%, #5FFBF1 100%);
+}
+
+p {
+    font-size: 20px;
+}
+
+.strt {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 4px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 60px;
+    background: #2e2e2e;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .strt:hover {
+    background: #515151;
+    text-decoration: none;
+  }
+
+  .strt:active {
+    background: linear-gradient(60deg, #845EC2 0%, #F9F871 100%);
+  }
+
+  .menu{
+    height: 300px;
+    border-radius: 4px;
+    background: url(pixel.png) center center/cover no-repeat;
+    color: white;
+  }
+
+  .games{
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .gamebutton{
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    width: 200px;
+    background: #363636;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .gamebutton:hover {
+    background: linear-gradient(90deg, #ff0000 0%, #0022ff 100%);
+  }
+
+  .riddle {
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 4px;
+    width: 70%;
+    margin: auto;
+    background: url(pixel.png) center center/cover no-repeat;
+  }
+
+  .submitbutton {
+    border-style: solid;
+    border-width: 3px;
+    background: #696969;
+    font-size: 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: black;
+    padding-inline: 10px;
+  }
+
+  .submitbutton:hover {
+    animation: rainbow 5s linear 0s infinite normal none;
+  }
+
+  @keyframes rainbow{
+    0% {
+      background: red;
+    }
+    14% {
+      background: orange;
+    }
+    28% {
+      background: yellow;
+    }
+    42% {
+      background: lime;
+    }
+    56% {
+      background: blue;
+    }
+    70% {
+      background: violet;
+    }
+    85% {
+      background: indigo;
+    }
+    100% {
+      background: red;
+    }
+}
+
+@keyframes disabled{
+  0% {
+    background: black;
+  }
+  100%{
+    background: black;
+  }
+}
+
+.options {
+  margin: auto;
+  padding: 5px;
+  border-radius: 4px;
+  background: lime;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000;
+  font-size: 20px;
+}
+
+mark{
+  background-color: lightblue;
+}
+
+.final{
+  margin: auto;
+  padding: 5px;
+  font-size: 50px;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: greenyellow;
+  background: url(pixel2.png) center center/cover no-repeat;
+}
+
+.final:hover{
+  background: url(pixel.png) center center/cover no-repeat;
+}
+
+.container {
+  background: url(pixel.png) center center/cover no-repeat;
+  border-radius: 10px;
+}
+
+.text-cutout {
+  background-color: #fff;
+  mix-blend-mode: screen;
+  padding: .1em .8em;
+  font-size: 100px;
+  margin-inline: 400px;
+  border-radius: 10px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Riddles</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+        <div class="riddle" id="question1">
+            <p>What has to be broken before you can use it?</p>
+        <select id="answer1" name="options1" class="options">
+            <option value="selectanswer">--Select Answer--</option>
+            <option value="egg">An Egg</option>
+            <option value="glass">Glass</option>
+            <option value="water">Water</option>
+        </select>
+        <br>
+        <br>
+            <a href="javascript:question1()" class="submitbutton" id="submit1">Submit</a>
+        <br>
+        <br>
+        </div>
+        <br>
+        <br>
+        <div class="riddle" id="question2">
+            <p>What month of the year has 28 days?</p>
+            <select id="answer2" name="options2" class="options">
+                <option value="selectanswer">--Select Answer--</option>
+                <option value="feb">February</option>
+                <option value="oct">October</option>
+                <option value="all">All</option>
+            </select>
+            <br>
+            <br>
+                <a href="javascript:question2()" class="submitbutton" id="submit2">Submit</a>
+                <br>
+                <br>
+        </div>
+        <br>
+        <br>
+        <div class="riddle" id="question3">
+            <p>What can you break, even if you never pick it up or touch it?</p>
+            <select id="answer3" name="options3" class="options">
+                <option value="selectanswer">--Select Answer--</option>
+                <option value="air">Air</option>
+                <option value="prom">A promise</option>
+                <option value="nothing">Nothing</option>
+            </select>
+            <br>
+            <br>
+                <a href="javascript:question3()" class="submitbutton" id="submit3">Submit</a>
+                <br>
+                <br>
+        </div>
+        <br>
+        <br>
+        <div class="riddle" id="question4">
+            <p>I follow you all the time and copy your every move, but you can’t touch me or catch me<mark>. What am I?</mark></p>
+            <select id="answer4" name="options4" class="options">
+                <option value="selectanswer">--Select Answer--</option>
+                <option value="idk">I don't know</option>
+                <option value="shadow">Your shadow</option>
+                <option value="per">Stalker</option>
+            </select>
+            <br>
+            <br>
+                <a href="javascript:question4()" class="submitbutton" id="submit4">Submit</a>
+                <br>
+                <br>
+        </div>
+        <br>
+        <br>
+        <a href="javascript:getScore()" class="final">Get score</a>
+    </main>
+  </body>
+	<script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
